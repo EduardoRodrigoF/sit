@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="estilos.css">
+    <title>Caixa Eletronico</title>
+</head>
+<body>
+  <img src="caixa.jpg" alt="caixa Eletronico">
+  <h1>Programa Caixa Eletronico</h1>
+  <h4>O programa le o valor de saque de um cliente, verifica sua validade (ou seja, se pode ser pago 
+    notas de 100, 50 e 10 necessárias para esse saque)
+  </h4>
+     <form>
+  <p>Valor do saque:
+    <input type="number" id= "InSaque"  min="10" required>
+    </p> 
+    <input type="submit" value= "Exibir Notas para Saque" required> 
+  <input type="reset" value="Limpar Campo">
+     </form>
+
+     <h3 id = "outResp1"></h3>
+     <h3 id = "outResp2"></h3>
+     <h3 id = "outResp3"></h3>
+    
+     <script src="caixa.js"></script>
+</body>
+</html>
